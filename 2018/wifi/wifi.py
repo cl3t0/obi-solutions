@@ -93,9 +93,6 @@ def verificarCamadas(retangulos, retangulomaior, retangulomenor):
 		else:
 			return False
 
-def contando():
-	pass
-
 # Cada retangulo pode possui outros retangulos
 
 global possui
