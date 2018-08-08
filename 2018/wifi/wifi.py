@@ -31,9 +31,6 @@ for i in range(quantidade_de_retangulos):
 	# Colocando as cords na lista de retangulos
 	retangulos.append(retangulo)
 
-print(retangulos)
-print(maior_retangulo)
-
 def dentro(retangulomaior, retangulomenor):
 
 	# Renomeando as variaveis para facilitar compreensão
@@ -113,8 +110,6 @@ for i in retangulos:
 	for j in retangulos:
 		if verificarCamadas(retangulos, i, j):
 			possui[i[0]].append(j[0])
-
-print(possui)
 
 global contador
 
